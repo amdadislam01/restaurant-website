@@ -21,7 +21,7 @@ A modern and responsive **restaurant landing page** built using **HTML** and **T
 ## 🛠️ Technologies Used
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,tailwindcss,js" alt="Tech Stack" width="150"/>
+  <img src="https://skillicons.dev/icons?i=html,css,tailwindcss,js" alt="Tech Stack" width="320"/>
 </p>
 
 ---
