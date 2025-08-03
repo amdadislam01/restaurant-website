@@ -12,7 +12,62 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
+<body class="font-sans bg-gray-50">
+    <!-- Navigation -->
+    <nav id="navbar" class="navbar fixed w-full z-50 py-3 bg-white shadow-sm">
+        <div class="container mx-auto px-4 sm:px-6">
+            <div class="flex justify-between items-center">
+                <!-- Logo with animation -->
+                <a href="#home" class="text-2xl font-bold text-amber-600 flex items-center" data-aos="fade-right">
+                    <span class="mr-2">🍽️</span>
+                    <span
+                        class="bg-clip-text text-transparent text-gray-600 bg-gradient-to-r from-amber-600 to-amber-800">
+                        The Garden Kitchen
+                    </span>
+                </a>
+
+                <!-- Desktop Menu - hidden on mobile -->
+                <div class="hidden md:flex space-x-6 lg:space-x-8" data-aos="fade-down">
+                    <a href="#home" class="nav-link text-gray-800 hover:text-amber-600 transition duration-300">Home</a>
+                    <a href="#menu" class="nav-link text-gray-800 hover:text-amber-600 transition duration-300">Menu</a>
+                    <a href="#reservation"
+                        class="nav-link text-gray-800 hover:text-amber-600 transition duration-300">Reservations</a>
+                    <a href="#about"
+                        class="nav-link text-gray-800 hover:text-amber-600 transition duration-300">About</a>
+                    <a href="#gallery"
+                        class="nav-link text-gray-800 hover:text-amber-600 transition duration-300">Gallery</a>
+                    <a href="#contact"
+                        class="nav-link text-gray-800 hover:text-amber-600 transition duration-300">Contact</a>
+                </div>
+
+                <!-- Mobile Menu Button - shown only on mobile -->
+                <button class="md:hidden focus:outline-none hamburger" id="menu-toggle" aria-label="Menu">
+                    <div class="w-6 flex flex-col space-y-1.5">
+                        <span class="hamburger-line h-0.5 w-6 bg-gray-800 rounded transition-all duration-300"></span>
+                        <span class="hamburger-line h-0.5 w-6 bg-gray-800 rounded transition-all duration-300"></span>
+                        <span class="hamburger-line h-0.5 w-6 bg-gray-800 rounded transition-all duration-300"></span>
+                    </div>
+                </button>
+            </div>
+
+            <!-- Mobile Menu - shown only on mobile -->
+            <div class="mobile-menu hidden md:hidden mt-2" id="mobile-menu">
+                <div class="flex flex-col space-y-2 py-3">
+                    <a href="#home"
+                        class="nav-link text-gray-800 hover:text-amber-600 px-3 py-2 rounded-lg hover:bg-amber-50 transition">Home</a>
+                    <a href="#menu"
+                        class="nav-link text-gray-800 hover:text-amber-600 px-3 py-2 rounded-lg hover:bg-amber-50 transition">Menu</a>
+                    <a href="#reservation"
+                        class="nav-link text-gray-800 hover:text-amber-600 px-3 py-2 rounded-lg hover:bg-amber-50 transition">Reservations</a>
+                    <a href="#about"
+                        class="nav-link text-gray-800 hover:text-amber-600 px-3 py-2 rounded-lg hover:bg-amber-50 transition">About</a>
+                    <a href="#gallery"
+                        class="nav-link text-gray-800 hover:text-amber-600 px-3 py-2 rounded-lg hover:bg-amber-50 transition">Gallery</a>
+                    <a href="#contact"
+                        class="nav-link text-gray-800 hover:text-amber-600 px-3 py-2 rounded-lg hover:bg-amber-50 transition">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
 </body>
 </html>
