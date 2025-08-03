@@ -126,3 +126,45 @@ body {
     transform: scale(1.03) !important;
     z-index: 10;
 }
+
+/* Form animations */
+.form-input {
+    transition: all 0.3s ease;
+    transform: translateX(-10px);
+    opacity: 0;
+    animation: formInputAppear 0.5s ease forwards;
+}
+
+@keyframes formInputAppear {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Toast notification */
+.toast {
+    animation: slideIn 0.5s, fadeOut 0.5s 2.5s;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+    }
+}
