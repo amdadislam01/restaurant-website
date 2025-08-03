@@ -29,7 +29,7 @@ A modern and responsive **restaurant landing page** built using **HTML** and **T
 ## 📸 Screenshot
 
 <p align="center">
-  <img src="https://i.postimg.cc/zvYz2NJz/restaurant-site-screenshot.png" alt="Website Screenshot" width="800"/>
+  <img src="https://ik.imagekit.io/yqnbhdlo4/Img/restaurant.png?updatedAt=1754204980357" alt="Website Screenshot" width="1000"/>
 </p>
 
 ---
