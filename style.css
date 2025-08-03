@@ -168,3 +168,44 @@ body {
         opacity: 0;
     }
 }
+
+/* Section entrance animations */
+.section-title {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: sectionTitleAppear 0.8s ease forwards 0.3s;
+}
+
+@keyframes sectionTitleAppear {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Hamburger menu animation */
+    .hamburger.active .hamburger-line:nth-child(1) {
+        transform: translateY(6px) rotate(45deg);
+    }
+    .hamburger.active .hamburger-line:nth-child(2) {
+        opacity: 0;
+    }
+    .hamburger.active .hamburger-line:nth-child(3) {
+        transform: translateY(-6px) rotate(-45deg);
+    }
+    
+    /* Smooth transitions */
+    .nav-link {
+        transition: color 0.3s ease;
+    }
+    
+    /* Mobile menu animation */
+    .mobile-menu {
+        transition: all 0.3s ease;
+        max-height: 0;
+        overflow: hidden;
+    }
+    
+    .mobile-menu.active {
+        max-height: 576px;
+    }
