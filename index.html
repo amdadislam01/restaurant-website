@@ -88,5 +88,265 @@
             </div>
         </div>
     </section>
+     <!-- Menu Section -->
+    <section id="menu" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-800 mb-2 section-title">Our Exquisite Menu</h2>
+                <div class="w-20 h-1 bg-amber-600 mx-auto"></div>
+                <p class="text-gray-600 mt-4 max-w-2xl mx-auto">Carefully crafted dishes using seasonal ingredients and
+                    culinary expertise</p>
+            </div>
+
+            <!-- Filter Buttons -->
+            <div class="flex flex-wrap justify-center gap-3 mb-12" data-aos="fade-up">
+                <button
+                    class="filter-btn px-6 py-3 rounded-full bg-gray-200 text-black transform hover:scale-105 transition duration-300 font-medium"
+                    data-filter="all">All Menu</button>
+                <button
+                    class="filter-btn px-6 py-3 rounded-full bg-gray-100 hover:bg-amber-600 hover:text-white transition duration-300 transform hover:scale-105 font-medium"
+                    data-filter="breakfast">Breakfast</button>
+                <button
+                    class="filter-btn px-6 py-3 rounded-full bg-gray-100 hover:bg-amber-600 hover:text-white transition duration-300 transform hover:scale-105 font-medium"
+                    data-filter="lunch">Lunch</button>
+                <button
+                    class="filter-btn px-6 py-3 rounded-full bg-gray-100 hover:bg-amber-600 hover:text-white transition duration-300 transform hover:scale-105 font-medium"
+                    data-filter="dinner">Dinner</button>
+                <button
+                    class="filter-btn px-6 py-3 rounded-full bg-gray-100 hover:bg-amber-600 hover:text-white transition duration-300 transform hover:scale-105 font-medium"
+                    data-filter="drinks">Drinks & Wine</button>
+                <button
+                    class="filter-btn px-6 py-3 rounded-full bg-gray-100 hover:bg-amber-600 hover:text-white transition duration-300 transform hover:scale-105 font-medium"
+                    data-filter="desserts">Desserts</button>
+            </div>
+
+            <!-- Menu Items Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Breakfast Items -->
+                <div class="menu-item bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:shadow-xl hover:-translate-y-1"
+                    data-category="breakfast">
+                    <div class="relative overflow-hidden h-60">
+                        <img src="https://images.unsplash.com/photo-1559496417-e7f25cb247f3?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+                            alt="Pancakes"
+                            class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                        <span
+                            class="absolute top-4 right-4 bg-amber-600 text-white text-xs font-bold px-3 py-1 rounded-full">Chef's
+                            Special</span>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-3">
+                            <h3 class="text-xl font-bold text-gray-800">Fluffy Pancakes Stack</h3>
+                            <span class="text-amber-600 font-bold text-lg">$12.99</span>
+                        </div>
+                        <p class="text-gray-600 mb-4">Golden buttermilk pancakes served with Vermont maple syrup, fresh
+                            berries, and whipped cream</p>
+                        <div class="flex justify-between items-center">
+                            <span
+                                class="inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">Breakfast</span>
+                            <button class="text-amber-600 hover:text-amber-700 font-medium">+ Add to Order</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:shadow-xl hover:-translate-y-1"
+                    data-category="breakfast">
+                    <div class="relative overflow-hidden h-60">
+                        <img src="https://images.unsplash.com/photo-1484723091739-30a097e8f929?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+                            alt="Avocado Toast"
+                            class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-3">
+                            <h3 class="text-xl font-bold text-gray-800">Artisan Avocado Toast</h3>
+                            <span class="text-amber-600 font-bold text-lg">$10.99</span>
+                        </div>
+                        <p class="text-gray-600 mb-4">Sourdough bread with smashed avocado, heirloom cherry tomatoes,
+                            microgreens, and feta crumbles</p>
+                        <div class="flex justify-between items-center">
+                            <span
+                                class="inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">Breakfast</span>
+                            <button class="text-amber-600 hover:text-amber-700 font-medium">+ Add to Order</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Lunch Items -->
+                <div class="menu-item bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:shadow-xl hover:-translate-y-1"
+                    data-category="lunch">
+                    <div class="relative overflow-hidden h-60">
+                        <img src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+                            alt="Salad"
+                            class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                        <span
+                            class="absolute top-4 right-4 bg-green-600 text-white text-xs font-bold px-3 py-1 rounded-full">Healthy</span>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-3">
+                            <h3 class="text-xl font-bold text-gray-800">Mediterranean Salad</h3>
+                            <span class="text-amber-600 font-bold text-lg">$14.99</span>
+                        </div>
+                        <p class="text-gray-600 mb-4">Organic mixed greens with imported feta, Kalamata olives,
+                            cucumber, red onion, and housemade balsamic vinaigrette</p>
+                        <div class="flex justify-between items-center">
+                            <span
+                                class="inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">Lunch</span>
+                            <button class="text-amber-600 hover:text-amber-700 font-medium">+ Add to Order</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:shadow-xl hover:-translate-y-1"
+                    data-category="lunch">
+                    <div class="relative overflow-hidden h-60">
+                        <img src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+                            alt="Burger"
+                            class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                        <span
+                            class="absolute top-4 right-4 bg-red-600 text-white text-xs font-bold px-3 py-1 rounded-full">Popular</span>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-3">
+                            <h3 class="text-xl font-bold text-gray-800">Signature Gourmet Burger</h3>
+                            <span class="text-amber-600 font-bold text-lg">$16.99</span>
+                        </div>
+                        <p class="text-gray-600 mb-4">8oz Angus beef patty with aged cheddar, applewood smoked bacon,
+                            caramelized onions, and signature sauce on brioche</p>
+                        <div class="flex justify-between items-center">
+                            <span
+                                class="inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">Lunch</span>
+                            <button class="text-amber-600 hover:text-amber-700 font-medium">+ Add to Order</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Dinner Items -->
+                <div class="menu-item bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:shadow-xl hover:-translate-y-1"
+                    data-category="dinner">
+                    <div class="relative overflow-hidden h-60">
+                        <img src="https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+                            alt="Steak"
+                            class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                        <span
+                            class="absolute top-4 right-4 bg-amber-600 text-white text-xs font-bold px-3 py-1 rounded-full">Premium</span>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-3">
+                            <h3 class="text-xl font-bold text-gray-800">Prime Ribeye Steak</h3>
+                            <span class="text-amber-600 font-bold text-lg">$32.99</span>
+                        </div>
+                        <p class="text-gray-600 mb-4">12oz USDA Prime ribeye with roasted garlic mashed potatoes,
+                            grilled asparagus, and red wine reduction</p>
+                        <div class="flex justify-between items-center">
+                            <span
+                                class="inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">Dinner</span>
+                            <button class="text-amber-600 hover:text-amber-700 font-medium">+ Add to Order</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:shadow-xl hover:-translate-y-1"
+                    data-category="dinner">
+                    <div class="relative overflow-hidden h-60">
+                        <img src="https://images.unsplash.com/photo-1565557623262-b51c2513a641?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+                            alt="Pasta"
+                            class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-3">
+                            <h3 class="text-xl font-bold text-gray-800">Truffle Mushroom Fettuccine</h3>
+                            <span class="text-amber-600 font-bold text-lg">$22.99</span>
+                        </div>
+                        <p class="text-gray-600 mb-4">Handmade fettuccine with wild mushrooms, white truffle oil,
+                            Parmesan cream sauce, and fresh herbs</p>
+                        <div class="flex justify-between items-center">
+                            <span
+                                class="inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">Dinner</span>
+                            <button class="text-amber-600 hover:text-amber-700 font-medium">+ Add to Order</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Drinks Items -->
+                <div class="menu-item bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:shadow-xl hover:-translate-y-1"
+                    data-category="drinks">
+                    <div class="relative overflow-hidden h-60">
+                        <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+                            alt="Cocktail"
+                            class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                        <span
+                            class="absolute top-4 right-4 bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full">Seasonal</span>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-3">
+                            <h3 class="text-xl font-bold text-gray-800">Elderflower Gin Fizz</h3>
+                            <span class="text-amber-600 font-bold text-lg">$14.99</span>
+                        </div>
+                        <p class="text-gray-600 mb-4">Premium gin with St. Germain elderflower liqueur, fresh lime, and
+                            soda water with cucumber garnish</p>
+                        <div class="flex justify-between items-center">
+                            <span
+                                class="inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">Drinks</span>
+                            <button class="text-amber-600 hover:text-amber-700 font-medium">+ Add to Order</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="menu-item bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:shadow-xl hover:-translate-y-1"
+                    data-category="drinks">
+                    <div class="relative overflow-hidden h-60">
+                        <img src="https://corporate.beachcomber.com/media/zz3f1iif/dsc04959.jpg?width=500&height=281.25"
+                            alt="Wine"
+                            class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-3">
+                            <h3 class="text-xl font-bold text-gray-800">Sommelier's Wine Selection</h3>
+                            <span class="text-amber-600 font-bold text-lg">$12-18/glass</span>
+                        </div>
+                        <p class="text-gray-600 mb-4">Curated selection of premium international wines by the glass,
+                            rotated seasonally</p>
+                        <div class="flex justify-between items-center">
+                            <span
+                                class="inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">Drinks</span>
+                            <button class="text-amber-600 hover:text-amber-700 font-medium">+ Add to Order</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Desserts Items -->
+                <div class="menu-item bg-white rounded-lg shadow-lg overflow-hidden transition-transform duration-300 hover:shadow-xl hover:-translate-y-1"
+                    data-category="desserts">
+                    <div class="relative overflow-hidden h-60">
+                        <img src="https://images.unsplash.com/photo-1563805042-7684c019e1cb?ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80"
+                            alt="Dessert"
+                            class="w-full h-full object-cover transition-transform duration-500 hover:scale-110">
+                        <span
+                            class="absolute top-4 right-4 bg-pink-600 text-white text-xs font-bold px-3 py-1 rounded-full">Sweet</span>
+                    </div>
+                    <div class="p-6">
+                        <div class="flex justify-between items-center mb-3">
+                            <h3 class="text-xl font-bold text-gray-800">Chocolate Soufflé</h3>
+                            <span class="text-amber-600 font-bold text-lg">$9.99</span>
+                        </div>
+                        <p class="text-gray-600 mb-4">Warm chocolate soufflé with a molten center, served with vanilla
+                            bean ice cream and raspberry coulis</p>
+                        <div class="flex justify-between items-center">
+                            <span
+                                class="inline-block bg-gray-100 rounded-full px-3 py-1 text-sm font-semibold text-gray-700">Dessert</span>
+                            <button class="text-amber-600 hover:text-amber-700 font-medium">+ Add to Order</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-12">
+                <button
+                    class="px-8 py-3 bg-gray-200 text-black rounded-full font-medium hover:bg-amber-700 transition duration-300 transform hover:scale-105">
+                    View Full Menu
+                </button>
+            </div>
+        </div>
+    </section>
+
 </body>
 </html>
